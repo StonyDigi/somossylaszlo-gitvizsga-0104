@@ -10,4 +10,11 @@
 8.  git add .
 9.  git commit -m "1. commit: Git inicializálása, README.md, .gitignore fájlok hozááadása, console ág létrehozása, app.js módosítva,funkció hozzáadva. "
 10. git status
-11.
+11. git add .
+12. git commit -m "2. commit:style.css  fájl módosítva,funkció hozzáadva."
+13. git checkout main
+14. git add .
+15. git commit -m "3.commit: utolsó módosítások hozzáadva."
+16. git remote add origin git@github.com:StonyDigi/somossylaszlo-gitvizsga-0104.git
+17. git branch -M main
+18. git push -u origin main
