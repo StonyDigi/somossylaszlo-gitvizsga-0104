@@ -95,4 +95,9 @@ prevBtn.addEventListener("click", prevSong);
 //Ha a zene végetért lépjen a következőre
 audio.addEventListener("ended", nextSong);
 
+//ha az oldal betöltődött, akkor a consolba írjuk ki „Az oldal sikeresen betöltődött” 
+window.addEventListener("load", myFunction);
 
+function myFunction() {
+    console.log("Az oldal sikeresen betöltődött");
+}
