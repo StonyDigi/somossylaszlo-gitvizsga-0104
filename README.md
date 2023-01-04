@@ -16,5 +16,6 @@
 14. git add .
 15. git commit -m "3.commit: utolsó módosítások hozzáadva."
 16. git remote add origin git@github.com:StonyDigi/somossylaszlo-gitvizsga-0104.git
-17. git branch -M main
+17. git checkout main
 18. git push -u origin main
+19. git push -u origin console
